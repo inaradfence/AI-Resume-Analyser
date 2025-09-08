@@ -1,0 +1,112 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #1a1a1a;
+    color: white;
+    max-width: 90%;
+    margin: auto;
+
+}
+
+.hero-section {
+    background: linear-gradient(to right, #312e81, #531e86, #1e3a8a);
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    margin: auto;
+    max-width: 90%;
+    margin: auto
+}
+
+.user-actions {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.sign-in-btn {
+    font-weight: 600;
+    border: none;
+    border-radius: 30px;
+    padding: 15px;
+    color: white;
+    background: #3459e9;
+    font-size: 18px;
+}
+
+.user-count {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    margin-left: 8rem;
+    margin-right: 8rem;
+}
+
+.h-content h1 {
+    font-size: 3rem;
+    font-weight: 800;
+    margin-top: -50px;
+}
+
+.h-content h1 span {
+    color: #60a5fa;
+    font-size: 3rem;
+    font-weight: 800;
+}
+
+.h-content p {
+    color: #588d9f;
+    font-size: 20px;
+}
+
+.h-img {
+    height: 600px;
+    width: 1000px;
+}
+
+.btn {
+    border: red solid 2px;
+    border-radius: 50px;
+    padding: 15px 25px;
+    font-size: 20px;
+    color: white;
+    font-weight: 500;
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+}
+
+/* Features */
+
+.features-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card-1{
+    background-color: #232323;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    width: 500px;
+    box-shadow: #696981;
+    align-content: left;
+
+}
+.card-1 img{
+    height: 42px;
+    width: 42px;
+}
+.card{
+    display: flex;
+    gap: 15px;
+}
