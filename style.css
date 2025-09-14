@@ -351,7 +351,6 @@ header {
 
 /* Responsiveness */
 
-/* 📱 Mobile Devices (max-width: 768px) */
 
 @media (max-width: 768px) {
 
@@ -359,10 +358,34 @@ header {
         width: 100%;
     }
 
-    .header-content,
-    .features-section,
-    .choose-us-section,
-    .upload-section,
+    .header-content {
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        /* justify-content: center */
+    }
+    .features-section {
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        /* justify-content: center */
+    }
+    .choose-us-section {
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        /* justify-content: center */
+    }
+    .upload-section {
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        /* justify-content: center */
+    }
     .testimonials-section {
         flex-direction: column;
         margin: 0;
@@ -395,8 +418,10 @@ header {
     } 
 
     .footer-section{
+        margin-top: 2rem;
+        padding: 10px;
         width: 100%;
-        margin: 0;
+        
     }
 
      .card-1, .testimonial-1{
@@ -406,9 +431,16 @@ header {
 
 }
 
-/* 📱 Small Phones (max-width: 480px) */
 @media (max-width: 480px) {
-    .sign-in-btn, .file button, .job-description button{
+    .sign-in-btn{
+        padding: 10px 15px;
+        font-size: 16px;
+    }
+    .file button{
+        padding: 10px 15px;
+        font-size: 16px;
+    }
+    .job-description button{
         padding: 10px 15px;
         font-size: 16px;
     }
@@ -423,8 +455,4 @@ header {
         
     }
 
-    .footer-section{
-        width: 100%;
-        margin: 0;
-    }
 }
